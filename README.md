@@ -1,6 +1,6 @@
 E-conomic API
 =============
-Lightweight wrapper for the E-conomic API. Heavily inspired by the excellent [drewm/mailchimp-api](https://github.com/drewm/mailchimp-api) wrapper.
+Lightweight wrapper for the E-conomic REST API. Heavily inspired by the excellent [drewm/mailchimp-api](https://github.com/drewm/mailchimp-api) wrapper.
 
 Installation
 ------------
