@@ -1,0 +1,22 @@
+{
+    "name": "rbech/economic-api",
+    "description": "Lightweight wrapper for the E-conomic REST API heavily inspired by drewm/mailchimp-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasmus Bech",
+            "email": "me@rbech.com",
+            "homepage": "https://rbech.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RBech\\Economic\\": "src"
+        }
+    }
+}
