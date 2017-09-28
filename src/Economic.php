@@ -358,7 +358,10 @@ class Economic
 
         if (isset($formattedResponse->message)) {
             $this->lastError = sprintf('%d: %s', $formattedResponse->httpStatusCode, $formattedResponse->message);
-            $this->errors = $formattedResponse->errors;
+            
+            if (isset($formattedResponse->errors)) {
+                $this->errors = $formattedResponse->errors;
+            }
             return false;
         }
 
